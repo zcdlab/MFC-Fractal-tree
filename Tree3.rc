@@ -1,0 +1,279 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\Tree3.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\Tree3.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 373, 177
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 Tree3"
+FONT 9, "宋体"
+BEGIN
+    CTEXT           "递归深度",IDC_STATIC,25,21,42,13
+END
+
+IDD_TREE3_DIALOG DIALOGEX 0, 0, 860, 491
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Tree3"
+FONT 9, "宋体"
+BEGIN
+    EDITTEXT        IDC_EDIT1,745,25,42,16,ES_AUTOHSCROLL
+    GROUPBOX        "",IDC_STATIC,588,0,257,184
+    CONTROL         "叶子",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    614,82,32,10
+    GROUPBOX        "Leaf",IDC_STATIC,604,70,241,109
+    EDITTEXT        IDC_EDIT8,674,449,33,17,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT9,712,82,35,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT10,669,52,39,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT11,745,52,38,12,ES_AUTOHSCROLL
+    LTEXT           "X",IDC_STATIC,655,55,8,8
+    LTEXT           "Y",IDC_STATIC,731,54,8,8
+    LTEXT           "0~10.0的整数",IDC_STATIC,789,28,49,8
+    LTEXT           "树枝粗细",IDC_STATIC,638,453,33,8
+    LTEXT           "粗细",IDC_STATIC,690,83,23,10
+    GROUPBOX        "Root",IDC_STATIC,604,46,241,21
+    LTEXT           "0.0~10.0",IDC_STATIC,602,454,33,8
+    LTEXT           "0.0~10.0",IDC_STATIC,656,83,33,8
+    PUSHBUTTON      "Tree_NO.2",IDC_BUTTON1,591,185,51,20
+    PUSHBUTTON      "Tree_NO.3",IDC_BUTTON2,719,185,57,29
+    PUSHBUTTON      "Tree_NO.4",IDC_BUTTON3,593,278,60,30
+    PUSHBUTTON      "Tree_NO.5",IDC_BUTTON4,722,277,59,30
+    CONTROL         "",IDC_PICTURE,"Static",SS_BLACKFRAME,771,383,53,52
+    LTEXT           "红",IDC_STATIC,601,379,9,8
+    LTEXT           "绿",IDC_STATIC,601,405,9,8
+    LTEXT           "蓝",IDC_STATIC,601,431,9,8
+    SCROLLBAR       IDC_SCROLLBAR_RED,619,379,123,11
+    SCROLLBAR       IDC_SCROLLBAR_GREEN,619,405,122,11
+    SCROLLBAR       IDC_SCROLLBAR_BLUE,619,431,122,11
+    EDITTEXT        IDC_EDIT_RED,749,379,19,14,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_BORDER
+    EDITTEXT        IDC_EDIT_GREEN,749,405,20,13,ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER
+    EDITTEXT        IDC_EDIT_BLUE,749,431,18,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_BORDER
+    CONTROL         "",IDC_PICTURE2,"Static",SS_BLACKFRAME,780,108,59,52
+    LTEXT           "红",IDC_STATIC,612,105,9,8
+    LTEXT           "绿",IDC_STATIC,612,132,9,8
+    LTEXT           "蓝",IDC_STATIC,612,154,9,8
+    SCROLLBAR       IDC_SCROLLBAR_RED2,626,103,122,11
+    SCROLLBAR       IDC_SCROLLBAR_GREEN2,626,129,122,11
+    SCROLLBAR       IDC_SCROLLBAR_BLUE2,626,154,122,11
+    EDITTEXT        IDC_EDIT_RED2,757,103,22,14,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_BORDER
+    EDITTEXT        IDC_EDIT_GREEN2,757,129,20,14,ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER
+    EDITTEXT        IDC_EDIT_BLUE2,757,154,17,13,ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER
+    PUSHBUTTON      "Tree_NO.1",IDC_BUTTON5,604,11,79,30
+    LTEXT           "递归深度",IDC_STATIC,709,29,33,8
+    GROUPBOX        "",IDC_STATIC,588,178,128,95
+    GROUPBOX        "",IDC_STATIC,716,178,129,95
+    GROUPBOX        "",IDC_STATIC,588,268,128,95
+    GROUPBOX        "",IDC_STATIC,716,268,129,95
+    GROUPBOX        "分形树颜色调配",IDC_STATIC,587,365,258,122
+    LTEXT           "树高",IDC_STATIC,663,207,17,8
+    EDITTEXT        IDC_EDIT_TREE2,690,204,26,14,ES_AUTOHSCROLL
+    LTEXT           "枝偏向",IDC_STATIC,664,239,25,8
+    EDITTEXT        IDC_EDIT3_TREE2,690,237,26,14,ES_AUTOHSCROLL
+    LTEXT           "长势",IDC_STATIC,664,256,17,8
+    EDITTEXT        IDC_EDIT4_TREE2,690,255,25,14,ES_AUTOHSCROLL
+    LTEXT           "根偏向",IDC_STATIC,663,224,25,8
+    EDITTEXT        IDC_EDIT5_TREE,690,221,25,12,ES_AUTOHSCROLL
+    LTEXT           "0-110",IDC_STATIC,623,208,21,8
+    LTEXT           "0-180",IDC_STATIC,623,224,21,8
+    LTEXT           "0-180",IDC_STATIC,623,240,21,8
+    LTEXT           "-50~+50",IDC_STATIC,621,255,29,8
+    EDITTEXT        IDC_EDIT6_TREE3_pixel,783,236,52,12,ES_AUTOHSCROLL
+    LTEXT           "像素",IDC_STATIC,759,237,20,14
+    LTEXT           "0-200000",IDC_STATIC,721,237,33,8
+    EDITTEXT        IDC_EDIT6_TREE3_pixel2,659,325,52,12,ES_AUTOHSCROLL
+    LTEXT           "像素",IDC_STATIC,635,327,20,14
+    LTEXT           "0-500000",IDC_STATIC,597,328,33,8
+    LTEXT           "高度",IDC_STATIC,751,347,17,8
+    EDITTEXT        IDC_EDIT13,790,343,40,12,ES_AUTOHSCROLL
+    LTEXT           "0-110",IDC_STATIC,725,347,21,8
+    PUSHBUTTON      "左右摇摆",IDC_BUTTON6,649,186,54,15
+    PUSHBUTTON      "递归生长",IDC_BUTTON7,785,277,53,14
+    LTEXT           "树5与树1共享叶子控件",IDC_STATIC,726,314,81,8
+    LTEXT           "树5与树1共享递归深度控制",IDC_STATIC,725,327,97,8
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "Tree3 Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "Tree3\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2014\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "Tree3.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "Tree3 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 366
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 170
+    END
+
+    IDD_TREE3_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 845
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 Tree3(&A)..."
+END
+
+#endif    // Chinese (中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\Tree3.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
